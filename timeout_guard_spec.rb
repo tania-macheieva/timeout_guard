@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'timeout_guard'
-require_relative 'retry' # реалізація з лабораторної роботи 1.3
+require_relative 'retry'
 
 RSpec.describe TimeoutGuard do
   let(:timeout_ms) { 50 }
